@@ -36,14 +36,6 @@ public class Model2 {
 			DEPT = dEPT;
 		}
 
-		public int getCGPA() {
-			return CGPA;
-		}
-
-		public void setCGPA(int cGPA) {
-			CGPA = cGPA;
-		}
-
 		@Override
 		public String toString() {
 			return "Student [STD_ID=" + STD_ID + ", STD_NAME=" + STD_NAME + ", DEPT=" + DEPT + ", CGPA=" + CGPA + "]";
