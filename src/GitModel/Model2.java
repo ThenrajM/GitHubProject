@@ -28,13 +28,6 @@ public class Model2 {
 			STD_NAME = sTD_NAME;
 		}
 
-		public String getDEPT() {
-			return DEPT;
-		}
-
-		public void setDEPT(String dEPT) {
-			DEPT = dEPT;
-		}
 
 		@Override
 		public String toString() {
