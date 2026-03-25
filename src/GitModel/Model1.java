@@ -10,7 +10,7 @@ public class Model1 {
 		private int STD_ID;
 		private String STD_NAME = "";
 		private String DEPT = "";
-		private int CGPA = 0;
+		
 
 		public int getSTD_ID() {
 			return STD_ID;
@@ -36,17 +36,11 @@ public class Model1 {
 			DEPT = dEPT;
 		}
 
-		public int getCGPA() {
-			return CGPA;
-		}
-
-		public void setCGPA(int cGPA) {
-			CGPA = cGPA;
-		}
+		
 
 		@Override
 		public String toString() {
-			return "Student [STD_ID=" + STD_ID + ", STD_NAME=" + STD_NAME + ", DEPT=" + DEPT + ", CGPA=" + CGPA + "]";
+			return "Student [STD_ID=" + STD_ID + ", STD_NAME=" + STD_NAME + ", DEPT=" + DEPT + ", CGPA=" +   "]";
 		
 	
 		
