@@ -11,5 +11,6 @@ public class Service {
 	     
 	        System.out.println("Addition: " + add);
 	        System.out.println("Subtraction: " + sub);
+	        System.out.println("Divide: " + div);
 }
 }
