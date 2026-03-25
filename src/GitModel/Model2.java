@@ -21,21 +21,6 @@ public class Model2 {
 		}
 
 
-		public String getDEPT() {
-			return DEPT;
-		}
-
-		public void setDEPT(String dEPT) {
-			DEPT = dEPT;
-		}
-
-		public int getCGPA() {
-			return CGPA;
-		}
-
-		public void setCGPA(int cGPA) {
-			CGPA = cGPA;
-		}
 
 		@Override
 		public String toString() {
